@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders HideDevPreview story 1`] = `
+<body>
+  <div>
+    <div
+      data-testid="i18n-suspense"
+    >
+      loading
+    </div>
+  </div>
+  <div>
+    <ul
+      aria-atomic="false"
+      aria-live="polite"
+      class="pf-c-alert-group pf-m-toast"
+    />
+  </div>
+</body>
+`;
+
+exports[`Renders ShowDevPreview story 1`] = `
+<body>
+  <div>
+    <div
+      data-testid="i18n-suspense"
+    >
+      loading
+    </div>
+  </div>
+  <div>
+    <ul
+      aria-atomic="false"
+      aria-live="polite"
+      class="pf-c-alert-group pf-m-toast"
+    />
+  </div>
+</body>
+`;

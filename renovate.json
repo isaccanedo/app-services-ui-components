@@ -1,0 +1,11 @@
+{
+  "extends": ["github>redhat-developer/app-services-renovate-config"],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["^@?xstate"],
+      "groupName": "xstate"
+    }
+  ],
+  "separateMajorMinor": true,
+  "separateMultipleMajor": true
+}
